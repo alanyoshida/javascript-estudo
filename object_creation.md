@@ -1,6 +1,5 @@
 # Objetos
 ```javascript
-
 // Objetos vazios
 var a = new Object();
 var b = Object.create(null);
@@ -21,7 +20,7 @@ var d = {
 var Obj = function(name) { // Função anonima
   this.name = name; // atributo
 }
-var c = new Obj("hello"); 
+var c = new Obj("hello");
 ```
 
 ## Function Declarations
@@ -40,6 +39,13 @@ function Objeto(){};
 // Atributo
 Objeto.prototype.name = "hello";
 
+// Method
+Objeto.prototype.method_1 = function(){
+  // Code here ...
+}
+
+
+
 // Instanciacao
 var k = new Objeto();
 ```
@@ -49,6 +55,9 @@ var k = new Objeto();
 class myObject  {
   constructor(name) {
     this.name = name;
+  }
+  method_1(){
+    // Code here ...
   }
 }
 var e = new myObject("hello");

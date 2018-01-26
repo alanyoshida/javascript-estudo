@@ -9,7 +9,7 @@ Estudo da linguagem javascript
   * Operadores
   * typeof
   * Conversao de tipos
-* Funções
+* [Funções](functions.md)
 * Escopo de Funções (hoisting)
 * Closures e Funções Aninhadas
 * Callbacks
