@@ -7,11 +7,22 @@ function funcao(){
 }
 ```
 
-### Função Anonima
 ```javascript
-var exemplo = function(){
+var funcao = function(){
   // Codigo aqui ...
 }
+```
+
+### Função Anonima
+```javascript
+function(){
+  alert("Hello");
+}
+
+// Ex:
+setTimeout(function(){
+  alert("Hello");
+}, 3000);
 ```
 
 ## ES6
@@ -21,6 +32,11 @@ var exemplo = function(){
 () => {
   // Codigo aqui ...
 }
+
+// Ex:
+setTimeout( () => {
+  alert("Hello");
+}, 3000);
 ```
 
 ### Função Anonima
