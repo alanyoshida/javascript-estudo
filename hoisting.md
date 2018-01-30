@@ -13,12 +13,15 @@ console.log(a);
 b();
 ```
 
-### Resultado:
+*Resultado:*
+
 `Hello World`
 
 `B chamado`
 
-```javacript
+---------------------------------------------------
+
+```javascript
 console.log(a);
 b();
 
@@ -29,12 +32,15 @@ function b(){
 }
 ```
 
-### Resultado:
+*Resultado:*
+
 `undefined`
 
 `B chamado`
 
-```javacript
+---------------------------------------------------
+
+```javascript
 console.log(a);
 b();
 
@@ -46,10 +52,13 @@ function b(){
 }
 ```
 
-### Resultado:
+*Resultado:*
+
 `Uncaught ReferenceErrr: a is not defined`
 
 `B chamado`
+
+---------------------------------------------------
 
 # Fase de criação do **Execution Context**
 O **Execution Context** passa pelo codigo e encontra as declarações de variaveis, funcoes, objetos
