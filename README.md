@@ -30,37 +30,37 @@ Estudo da linguagem javascript
 
 # Conceitos
 * Basic syntax
-* functions
-* hoisting
-* by value & by reference
-* json vs object literals
-* execution context
-* scope chain
-* closures
-* call bind apply
+* Functions
+* Hoisting
+* By value & By reference
+* Json vs object literals
+* Execution context
+* Scope chain
+* Closures
+* Call bind apply
 * Dependency injection
-* object creation
-* object orientation
-* prototype
-* factories
-* inheritance
+* Object creation
+* Object orientation
+* Prototype
+* Factories
+* Inheritance
 * Iifes
-* bom
-* dom
+* Bom
+* Dom
 * use strict
 * Promises
-* async await
-* callback
-* event bubbling capturing  
-* map reduce filter
-* this keyword
-* constructor
-* composition
-* destructuring
+* Async await
+* Callback
+* Event bubbling capturing  
+* Map reduce filter
+* This keyword
+* Constructor
+* Composition
+* Destructuring
+* Functors
+* Generators
+* Currying
+* Partials
+* Lambda
+* Stream
 * misc
-* functors
-* generators
-* currying
-* partials
-* lambda
-* stream
