@@ -10,7 +10,7 @@ run( function *(){
 	console.log('Title: ', title);
 });
 
-THE GENERATOR THAT RESOLVES THE RUN ABOVE
+// THE GENERATOR THAT RESOLVES THE RUN ABOVE
 function run(generator) {
 	const iterator = generator();
 	const iteration = iterator.next();
