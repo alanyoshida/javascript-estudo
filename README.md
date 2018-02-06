@@ -82,6 +82,7 @@ Usando Chrome dev Tools:
 * Abas
   * Elements
     * Alterando CSS
+    * Alterando Dom
     * Filtro de busca
     * Valores computados
     * Listeners
@@ -98,3 +99,4 @@ Usando Chrome dev Tools:
   * Application
   * Security
   * Audits
+  * Modo Mobile
