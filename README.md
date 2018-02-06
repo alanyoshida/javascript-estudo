@@ -4,50 +4,50 @@ Estudo da linguagem javascript
 * Características da linguagem
 
 # Conceitos JS
-* Sintaxe básica
+* [Sintaxe básica](content/basic_syntax.md)
   * var, let, const
   * null vs undefined
   * Operadores
   * typeof
   * Conversao de tipos
-* Functions 
+* [Functions](content/functions.md) 
   * Declaration
   * Expression
   * Anonymous
   * Arrow
-* Scope chain (Hoisting)
-* Closures e Funções Aninhadas
-* By value & By reference
-* Json vs object literals
-* Execution context
-* Call, Bind, Apply
-* A keyworkd **this**
-* Dependency injection
-* Criação de Objetos
-* Inheritance e Prototype chain (herança de protótipos)
-* Object Orientation
-* Iifes (Imediatelly Invoked Function Expression)
-* Bom (Browser Object Model)
-* Dom (Document Object Model)
-* use strict
-* Callback
-* Event bubbling capturing  
-* This keyword
-* Constructor
-* Stream
+* [Scope chain (Hoisting)](content/hoisting.md)
+* [Closutres e Funções Aninhadas](content/closures.md)
+* [By value & By reference](content/byvalue_byreference.md)
+* [Json vs object literals](content/json_vs_object_literals.md)
+* [Execution context](content/execution_context.md)
+* [Call, Bind, Apply](content/call_bind_apply.md)
+* [A keyworkd **this**](content/this_keyword.md)
+* [Dependency injection](content/dependency_injection.md)
+* [Criação de Objetos](content/object_creation.md)
+* [Inheritance e Prototype chain (herança de protótipos)](content/inheritance.md)
+* [Object Orientation](content/object_orientation.md)
+* [Iifes (Imediatelly Invoked Function Expression)](iifes.md)
+* [Bom (Browser Object Model)](content/bom.md)
+* [Dom (Document Object Model)](content/dom.md)
+* [use strict](content/use_strict.md)
+* [Callback](content/callback.md)
+* [Event bubbling capturing](content/event_bubbling_capturing.md)
+* [This keyword](content/this_keyword.md)
+* [Constructor](content/constructor.md)
 
 # Tecnicas
-* Factories
-* Composition
-* Currying
-* Partials
-* Functors
-* Prototype Pattern
+* [Factories](content/factories.md)
+* [Composition](content/composition.md)
+* [Currying](content/currying.md)
+* [Partials](content/partials.md)
+* [Functors](content/functors.md)
+* [Prototype Pattern](content/prototype.md)
 * Module Pattern
 * Revealing Module Pattern
 * Builder
-* Constructors 
+* [Constructors](content/constructor.md)
 * Outros patterns famosos
+* [Stream](content/stream.md)
 
 # ES6 ou Javascript moderno
 * Symbols
@@ -55,13 +55,13 @@ Estudo da linguagem javascript
 * Template Literals
 * Proxies
 * Spread Operator/ Rest Operator
-* Arrow Functions / Lambda
-* Destructuring
+* [Arrow Functions / Lambda](content/functions.md)
+* [Destructuring](content/destructuring.md)
 * Map (data structure)
 * import/ export (modules)
-* Map, reduce, filter, forEach
-* Promises
-* Async await
+* [Map, reduce, filter, forEach](content/map_reduce_filter.md)
+* [Promises](content/promises.md)
+* [Async await](content/async_await.md)
 * Generators
 
 # Manipulação de DOM
@@ -85,6 +85,10 @@ Estudo da linguagem javascript
   * removeChild
 * addEventListener
 * Problemas do DOM
+
+# BOM
+* window
+* document
 
 # Armazenamento
 * Cookie
