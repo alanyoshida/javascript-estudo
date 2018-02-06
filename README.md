@@ -76,3 +76,25 @@ Estudo da linguagem javascript
 * Cookie
 * LocalStorage
 * SessionStorage
+
+# Debug
+Usando Chrome dev Tools:
+* Abas
+  * Elements
+    * Alterando CSS
+    * Filtro de busca
+    * Valores computados
+    * Listeners
+    * Dom Breakpoints
+  * Console
+  * Sources
+    * Sources
+    * Snippets
+  * Network
+    * Analisar Requisição
+  * Performance
+    * Analise de performance
+  * Memory
+  * Application
+  * Security
+  * Audits
