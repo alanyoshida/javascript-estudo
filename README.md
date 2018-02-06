@@ -2,65 +2,77 @@
 Estudo da linguagem javascript
 
 * Características da linguagem
+
+# Conceitos JS
 * Sintaxe básica
   * var, let, const
   * null vs undefined
   * Operadores
   * typeof
   * Conversao de tipos
-* [Funções](functions.md)
-  * Arrow functions
-  * Funções anonimas
-* Escopo de Funções (hoisting)
+* Functions 
+  * Declaration
+  * Expression
+  * Anonymous
+  * Arrow
+* Scope chain (Hoisting)
 * Closures e Funções Aninhadas
-* Callbacks
-* Eventos
-* Prototyping
-* Criação de Objetos
-* Bind, Call, Apply e this
-* Prototype chain (herança de protótipos)
-* Definição de DOM
-* Seletores e Elementos
-* Manipulação de DOM
-* Problemas do DOM
-* Prototype Pattern
-* Module Pattern
-* Revealing Module Pattern
-* Builder, Constructors e outros patterns famosos
-
-# Conceitos
-* Basic syntax
-* Functions
-* Hoisting
 * By value & By reference
 * Json vs object literals
 * Execution context
-* Scope chain
-* Closures
-* Call bind apply
+* Call, Bind, Apply
+* A keyworkd **this**
 * Dependency injection
-* Object creation
-* Object orientation
-* Prototype
-* Factories
-* Inheritance
-* Iifes
-* Bom
-* Dom
+* Criação de Objetos
+* Inheritance e Prototype chain (herança de protótipos)
+* Object Orientation
+* Iifes (Imediatelly Invoked Function Expression)
+* Bom (Browser Object Model)
+* Dom (Document Object Model)
 * use strict
-* Promises
-* Async await
 * Callback
 * Event bubbling capturing  
-* Map reduce filter
 * This keyword
 * Constructor
+* Stream
+
+# Tecnicas
+* Factories
 * Composition
-* Destructuring
-* Functors
-* Generators
 * Currying
 * Partials
-* Lambda
-* Stream
-* misc
+* Functors
+* Prototype Pattern
+* Module Pattern
+* Revealing Module Pattern
+* Builder
+* Constructors 
+* Outros patterns famosos
+
+# ES6 ou Javascript moderno
+* Symbols
+* Classes
+* Template Literals
+* Proxies
+* Spread Operator/ Rest Operator
+* Arrow Functions / Lambda
+* Destructuring
+* Map (data structure)
+* import/ export (modules)
+* Map, reduce, filter, forEach
+* Promises
+* Async await
+* Generators
+
+# Manipulação de DOM
+* Definição de DOM
+* Seletores
+* Eventos
+* Manipulação de Nós ( createElement, appendChild, insertBefore, replaceChild,removeChild)
+* addEventListener
+* Problemas do DOM
+
+# Armazenamento
+* Cookie
+* LocalStorage
+* SessionStorage
