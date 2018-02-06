@@ -68,6 +68,15 @@ Estudo da linguagem javascript
 * Definição de DOM
 * Seletores
 * Eventos
+  * Keyboard
+    * keydown
+    * keyup
+    * keypress
+  * Mouse
+    * click
+    * dblclick
+    * mouseup
+    * mousedown
 * Manipulação de Nós 
   * createElement
   * appendChild
