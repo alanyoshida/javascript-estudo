@@ -18,24 +18,31 @@ Estudo da linguagem javascript
 * [Scope chain (Hoisting)](content/hoisting.md)
 * [Closutres e Funções Aninhadas](content/closures.md)
 * [By value & By reference](content/byvalue_byreference.md)
-* [Json vs object literals](content/json_vs_object_literals.md)
 * [Execution context](content/execution_context.md)
-* [Call, Bind, Apply](content/call_bind_apply.md)
 * [A keyworkd **this**](content/this_keyword.md)
-* [Dependency injection](content/dependency_injection.md)
 * [Criação de Objetos](content/object_creation.md)
+* [Json vs object literals](content/json_vs_object_literals.md)
+* [**this** keyword](content/this_keyword.md)
+* [Constructor](content/constructor.md)
 * [Inheritance e Prototype chain (herança de protótipos)](content/inheritance.md)
-* [Object Orientation](content/object_orientation.md)
-* [Iifes (Imediatelly Invoked Function Expression)](iifes.md)
+* [Call, Bind, Apply](content/call_bind_apply.md)
 * [Bom (Browser Object Model)](content/bom.md)
 * [Dom (Document Object Model)](content/dom.md)
 * [use strict](content/use_strict.md)
 * [Callback](content/callback.md)
-* [Event bubbling capturing](content/event_bubbling_capturing.md)
-* [This keyword](content/this_keyword.md)
-* [Constructor](content/constructor.md)
+* [Event bubbling, capturing](content/event_bubbling_capturing.md)
+* Eventos de tempo
+  * setTimeout
+  * setInterval
+* Tratamento de erros
+  * try, catch
+  * finally 
+  * throw
 
 # Tecnicas
+* [Dependency injection](content/dependency_injection.md)
+* [Iifes (Imediatelly Invoked Function Expression)](iifes.md)
+* [Object Orientation](content/object_orientation.md)
 * [Factories](content/factories.md)
 * [Composition](content/composition.md)
 * [Currying](content/currying.md)
