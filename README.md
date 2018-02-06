@@ -68,7 +68,12 @@ Estudo da linguagem javascript
 * Definição de DOM
 * Seletores
 * Eventos
-* Manipulação de Nós ( createElement, appendChild, insertBefore, replaceChild,removeChild)
+* Manipulação de Nós 
+  * createElement
+  * appendChild
+  * insertBefore
+  * replaceChild
+  * removeChild
 * addEventListener
 * Problemas do DOM
 
