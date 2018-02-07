@@ -1,5 +1,4 @@
-# javascript-estudo
-Estudo da linguagem javascript
+# Estudo da linguagem javascript
 
 * Características da linguagem
 
@@ -16,7 +15,7 @@ Estudo da linguagem javascript
   * Anonymous
   * Arrow
 * [Scope chain (Hoisting)](content/hoisting.md)
-* [Closutres e Funções Aninhadas](content/closures.md)
+* [Closures e Funções Aninhadas](content/closures.md)
 * [By value & By reference](content/byvalue_byreference.md)
 * [Execution context](content/execution_context.md)
 * [A keyworkd **this**](content/this_keyword.md)
