@@ -37,6 +37,9 @@
   * try, catch
   * finally 
   * throw
+* Requisições
+  * AJAX - XMLHttpRequest
+  * Websockets
 
 # Tecnicas
 * [Dependency injection](content/dependency_injection.md)
