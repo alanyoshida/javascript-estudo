@@ -40,8 +40,11 @@
 * Requisições
   * AJAX - XMLHttpRequest
   * Websockets
+* Segurança
+  * Não usar eval
+  * http vs https
 
-# Tecnicas
+# Tecnicas / Design Patterns
 * [Dependency injection](content/dependency_injection.md)
 * [Iifes (Imediatelly Invoked Function Expression)](iifes.md)
 * [Object Orientation](content/object_orientation.md)
@@ -50,13 +53,17 @@
 * [Currying](content/currying.md)
 * [Partials](content/partials.md)
 * [Functors](content/functors.md)
-* [Prototype Pattern](content/prototype.md)
+* [Constructors](content/constructor.md)
+* [Stream](content/stream.md)
+* Prototype Pattern
 * Module Pattern
 * Revealing Module Pattern
 * Builder
-* [Constructors](content/constructor.md)
+* Façade
+* Strategy
+* Builder
+* Constructors
 * Outros patterns famosos
-* [Stream](content/stream.md)
 
 # ES6 ou Javascript moderno
 * Symbols
