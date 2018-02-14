@@ -2,7 +2,8 @@
 
 * Características da linguagem
 
-# Conceitos JS
+## Conceitos JS
+
 * [Sintaxe básica](content/basic_syntax.md)
   * var, let, const
   * null vs undefined
@@ -44,7 +45,8 @@
   * Não usar eval
   * http vs https
 
-# Tecnicas / Design Patterns
+## Tecnicas / Design Patterns
+
 * [Dependency injection](content/dependency_injection.md)
 * [Iifes (Imediatelly Invoked Function Expression)](iifes.md)
 * [Object Orientation](content/object_orientation.md)
@@ -63,9 +65,11 @@
 * Strategy
 * Builder
 * Constructors
+* Trampolim
 * Outros patterns famosos
 
-# ES6 ou Javascript moderno
+## ES6 ou Javascript moderno
+
 * Symbols
 * Classes
 * Template Literals
@@ -80,7 +84,8 @@
 * [Async await](content/async_await.md)
 * Generators
 
-# Manipulação de DOM
+## Manipulação de DOM
+
 * Definição de DOM
 * Seletores
 * Eventos
@@ -102,16 +107,19 @@
 * addEventListener
 * Problemas do DOM
 
-# BOM
+## BOM
+
 * window
 * document
 
-# Armazenamento
+## Armazenamento
+
 * Cookie
 * LocalStorage
 * SessionStorage
 
-# Debug
+## Debug
+
 Usando Chrome dev Tools:
 * Abas
   * Elements
@@ -134,3 +142,19 @@ Usando Chrome dev Tools:
   * Security
   * Audits
   * Modo Mobile
+
+## V8
+
+O V8 é uma engine javascript de codigo aberto criada e mantida pelo Google, escrita em C++. É usada no Google Chrome e no Node.js. O V8 pode rodar sozinho ou dentro de outra aplicação C++.
+
+### Turbofan
+
+Turbofan é um compilador de otimização.
+
+### Ignition
+
+O Ignition é um interpretador baseado em registradores de baixo nivel que usa o backend do Turbofan.
+
+### Bytecode Pipeline
+
+![V8](images/ignition_turbofan.png)
