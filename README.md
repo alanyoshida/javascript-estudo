@@ -149,7 +149,7 @@ Usando Chrome dev Tools:
   * Audits
   * Modo Mobile
 
-## V8
+## V8 usa JIT (Just In Time Compilation)
 
 O V8 é uma engine javascript de codigo aberto criada e mantida pelo Google, escrita em C++. É usada no Google Chrome e no Node.js. O V8 pode rodar sozinho ou dentro de outra aplicação C++.
 
@@ -157,10 +157,18 @@ O V8 é uma engine javascript de codigo aberto criada e mantida pelo Google, esc
 
 Turbofan é um compilador de otimização.
 
+* Melhor performance de execução comparado com Ignition;
+* Mais lento para gerar codigo, mas é mais otimizado;
+
 ### Ignition
 
 O Ignition é um interpretador baseado em registradores de baixo nivel que usa o backend do Turbofan.
 
+* Para ambientes de pouca memória, inicialmente usado para dispositivos mobile, agora usado em todas plataformas;
+* Rapida geração de bytecode, melhora velocidade de startup das paginas;
+* Integra com Turbofan, faz otimização com turbofan mais simples;
+
 ### Bytecode Pipeline
 
 ![V8](images/ignition_turbofan.png)
+
