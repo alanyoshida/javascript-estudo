@@ -68,21 +68,27 @@
 * Trampolim
 * Outros patterns famosos
 
-## ES6 ou Javascript moderno
+## Javascript moderno (ES5>)
+
+Desde a versão 52, o Chrome suporta ES6 e ES7.
 
 * Symbols
 * Classes
+* Subclasses
 * Template Literals
-* Proxies
 * Spread Operator/ Rest Operator
 * [Arrow Functions / Lambda](content/functions.md)
 * [Destructuring](content/destructuring.md)
-* Map (data structure)
+* Map, Set, WeakMap, WeakSet (data structures)
 * import/ export (modules)
 * [Map, reduce, filter, forEach](content/map_reduce_filter.md)
 * [Promises](content/promises.md)
 * [Async await](content/async_await.md)
 * Generators
+* iterators & For of, in
+* Proxies/Reflect (Intercept properties access)
+* Promises
+* Async Await
 
 ## Manipulação de DOM
 
