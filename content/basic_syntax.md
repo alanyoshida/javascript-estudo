@@ -236,3 +236,13 @@ Experimente:
 `console.log ( null || " user ")`
 
 `console.log (" Karl " || " user ")`
+
+# Debugger
+Experimente:
+
+```javascript
+function bug() {
+  debugger;
+  console.log('ant')
+}
+```
