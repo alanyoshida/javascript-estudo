@@ -16,9 +16,9 @@
   * Anonymous
   * Arrow
 * [Scope chain (Hoisting)](content/hoisting.md)
+* [Execution context](content/execution_context.md)
 * [Closures e Funções Aninhadas](content/closures.md)
 * [By value & By reference](content/byvalue_byreference.md)
-* [Execution context](content/execution_context.md)
 * [A keyworkd **this**](content/this_keyword.md)
 * [Criação de Objetos](content/object_creation.md)
 * [Json vs object literals](content/json_vs_object_literals.md)
@@ -72,23 +72,23 @@
 
 Desde a versão 52, o Chrome suporta ES6 e ES7.
 
-* Symbols
-* Classes
-* Subclasses
-* Template Literals
-* Spread Operator/ Rest Operator
+* [Symbols](content/symbols.md)
+* [Classes](content/class.md)
+* [Template Literals](content/template_literals.md)
+* [Spread Operator](content/spread.md)
+* [Rest Operator](content/rest_operator.md)
 * [Arrow Functions / Lambda](content/functions.md)
 * [Destructuring](content/destructuring.md)
-* Map, Set, WeakMap, WeakSet (data structures)
+* [Map, Set, WeakMap, WeakSet (data structures)](content/data_structures.md)
 * import/ export (modules)
 * [Map, reduce, filter, forEach](content/map_reduce_filter.md)
 * [Promises](content/promises.md)
 * [Async await](content/async_await.md)
-* Generators
-* iterators & For of, in
-* Proxies/Reflect (Intercept properties access)
-* Promises
-* Async Await
+* [Generators](content/generators.md)
+* [Iterators & For of, For in](content/iterators.md)
+* [Proxies/Reflect (Intercept properties access)](content/interceptable.md)
+* [Promises](content/promises.md)
+* [Async Await](content/async_await.md)
 
 ## Manipulação de DOM
 
