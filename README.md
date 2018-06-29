@@ -80,7 +80,7 @@ Desde a versão 52, o Chrome suporta ES6 e ES7.
 * [Arrow Functions / Lambda](content/functions.md)
 * [Destructuring](content/destructuring.md)
 * [Map, Set, WeakMap, WeakSet (data structures)](content/data_structures.md)
-* import/ export (modules)
+* [import/ export (modules)](content/import_export.md)
 * [Map, reduce, filter, forEach](content/map_reduce_filter.md)
 * [Promises](content/promises.md)
 * [Async await](content/async_await.md)
@@ -174,3 +174,6 @@ O Ignition é um interpretador baseado em registradores de baixo nivel que usa o
 
 ### Orinoco
 
+O garbage collector do V8.
+
+[orinoco](https://v8project.blogspot.com/2016/04/jank-busters-part-two-orinoco.html)
